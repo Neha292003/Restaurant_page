@@ -1,0 +1,147 @@
+body{
+    margin:0;
+}
+.navbar
+{
+    position:absolute;
+    width:100%;
+    height:40px;
+    border-color:white;
+    z-index:100;
+}
+.bgimg
+{
+    position:relative;
+    height:580px;
+    top:0;
+    background-image:url("./img10.jpg");
+    background-size: cover;
+    /*background-repeat:"no repeat";*/
+}
+.circle
+{
+    position:relative;
+    top:110px;
+    background-color: white;
+    height:98px;
+    width:98px;
+    border-radius:50%;
+    left:48%;
+    font-size:80px;
+    color:rgb(240, 89, 89);
+    text-align:center;
+}
+#login
+{
+    position:relative;
+    left:80%;
+    color:white;
+    font-size:28px;
+    top:5px;
+    font-family:"poppins";
+}
+#signup
+{
+  position:relative;
+  left:82%; 
+ font-size:28px;
+  color:white;
+  top:5px;
+  font-family:"poppins";
+}
+  
+.anim{
+    width: 100%;
+    text-align: center;
+    position:relative;
+    margin:0;
+}
+.anim:before{
+    position:relative;
+    top:130px;
+    content:"";
+    color:rgb(252, 252, 243);
+    font-size:40px;
+    font-family:"poppins";
+    animation:change-text 10s ease-in-out 0s infinite;
+    font-weight:bold;
+    font-style:oblique 20deg;
+    text-shadow:10px 10px 10px black;
+}
+@keyframes change-text
+{
+    0% 
+    {
+        content: "Hungry?"
+    }
+    25% 
+    {
+        content:"Cooking gone wrong?"
+    }
+    50% 
+    {
+        content:"Unexpected guests?"
+    }
+    75% 
+    {
+        content:"Movie marathon?"
+    }
+    100% 
+    {
+        content:"Late night at office?"
+    }
+}
+.tagline
+{
+    position:relative;
+    top:150px;
+    text-align: center;
+    font-size:35px;
+    color:rgb(252, 252, 243);
+    font-family:"poppins";
+    font-weight:700;
+    margin:0;
+}
+.input
+{
+    text-align:center;
+    position:relative;
+    top:220px;
+}
+#loc,#placeres
+{
+    width:290px;
+    height:35px;
+    border-radius: 20px;
+   -webkit-box-shadow: 0 0 5px gray;
+   box-shadow: 0 0 5px gray;
+   border: 2px solid rgb(240, 89, 89);
+   font-size:18px;
+   text-align:center;
+   font-weight:300;
+}
+.con1
+{
+    font-family:"poppins";
+    font-size:40px;
+    font-weight:bold;
+    margin-left:7px;
+    color:rgb(3, 3, 92);
+    margin-bottom:0;
+}
+.con2
+{
+    font-family:"poppins";
+    font-size:150%;
+    
+    margin-left:7px;
+    color:rgb(47, 47, 50);
+}
+.fa
+{
+    position:absolute;
+    left:51%;
+    top:30%;
+    color:gray;
+}
+

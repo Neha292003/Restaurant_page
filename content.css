@@ -1,0 +1,41 @@
+.container
+{
+    width:100%;
+    height:550px;
+   
+}
+.box
+{
+    position:relative;
+    display:inline-block;
+    width:28%;
+    height:30%;
+    margin-left:4%;
+    margin-top:4%;
+    box-shadow:6px 6px rgb(211, 208, 208);
+}
+.box img
+{
+    display:inline block;
+    width:42%;
+    height:100%;
+    object-fit: fill;
+}
+.boxhead
+{
+    position:absolute;
+    top:10%;
+    left:58%;
+     color:rgb(3, 3, 92);
+}
+.boxcontent
+{
+    position:absolute;
+    top:32%;
+    left:45%;
+    font-size:115%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:500;
+
+}
+
